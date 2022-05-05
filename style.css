@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+
+body{
+    background-color: #000;
+
+    font-family: 'Orelega One', cursive;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    margin: auto 0;
+    height: 90vh;
+    width:100%;
+}
+
+.clock{
+    color:aquamarine;
+    font-size: 6rem;
+}
+
+
+footer{
+   
+    display: grid;
+    place-items: center;
+    
+}
+.copy-right{
+    color: aquamarine;
+    font-size: 1.5rem
+}
+
+@media (max-width: 540px){
+    .clock{
+        color:red;
+        font-size: 4rem;
+    }
+    .copy-right{
+        color: red;
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 280px){
+   .clock{
+       color:yellow;
+       font-size: 2.5rem;
+   }
+   .copy-right{
+    color: yellow;
+    font-size: .8rem;
+    letter-spacing: .7px;
+}
+}
+
+
+
+
+
